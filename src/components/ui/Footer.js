@@ -94,7 +94,7 @@ export default function Footer(props) {
                                 onClick={() => {props.setValue(1); props.setSelectedIndex(2)}} 
                                 to='/mobileapps' 
                                 className={classes.link}
-                            >Mobile App Development</Grid>
+                            >iOS/Android App Development</Grid>
                             <Grid 
                                 item 
                                 component={Link} 
