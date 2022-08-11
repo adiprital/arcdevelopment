@@ -64,7 +64,7 @@ export default function Footer(props) {
             <Hidden mdDown>
                 <Grid 
                     container 
-                    justify='center'
+                    justifyContent='center'
                     className={classes.mainContainer}
                 >
                     <Grid item className={classes.gridItem}>
@@ -128,7 +128,7 @@ export default function Footer(props) {
             <img alt='black decorative slash' src={footerAdornment} className={classes.adornment}/>
             <Grid 
                 container 
-                justify='flex-end' 
+                justifyContent='flex-end' 
                 spacing={2}
                 className={classes.socialContainer}
             >
