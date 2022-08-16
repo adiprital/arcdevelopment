@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
-import { getThemeProps, ThemeProvider } from '@material-ui/styles';
+import { ThemeProvider } from '@material-ui/styles';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import theme from './ui/Theme';
 import Header from './ui/Header';
 import Footer from './ui/Footer';
 import LandingPage from './LandingPage';
 import Services from './Services';
+import CustomSoftware from './CustomSoftware';
 
 function App() {
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -20,16 +21,18 @@ function App() {
           selectedIndex={selectedIndex}
           setSelectedIndex={setSelectedIndex}
         />
-        <Switch>
+        <Switch> 
+          {/*-----Home----- */}
           <Route 
             exact 
             path='/' 
             render={props => <LandingPage 
-              {...getThemeProps}
+              {...props}
                 setValue={setValue}
                 setSelectedIndex={setSelectedIndex}
               />} 
           />
+          {/*-----Services----- */}
           <Route 
             exact 
             path='/services' 
@@ -39,7 +42,16 @@ function App() {
               setSelectedIndex={setSelectedIndex}
             />}  
           />
-          <Route exact path='/customsoftware' component={() => <div>Custom Software</div>} />
+          {/*-----Custom Software----- */}
+          <Route 
+            exact 
+            path='/customsoftware' 
+            render={props => <CustomSoftware 
+              {...props}
+              setValue={setValue}
+              setSelectedIndex={setSelectedIndex}
+            />} 
+          />
           <Route exact path='/mobileapps' component={() => <div>Mobile Apps</div>} />
           <Route exact path='/websites' component={() => <div>Websites</div>} />
           <Route exact path='/revolution' component={() => <div>Revolution</div>} />

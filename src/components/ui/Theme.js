@@ -22,7 +22,8 @@ export default createTheme({
             fontFamily: 'Raleway',
             textTransform: 'none',
             fontWeight: 700,
-            fontSize: '1rem'
+            fontSize: '1rem',
+            color: 'white'
         },
         estimate: {
             fontFamily: 'Pacifico',
@@ -66,6 +67,11 @@ export default createTheme({
             borderRadius: 50,
             fontFamily: 'Roboto',
             fontWeight: 'bold',
+        },
+        body1: {
+            fontSize: '1.25rem',
+            color: arcGrey,
+            fontWeight: 300
         }
     }   
 });
