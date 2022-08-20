@@ -199,7 +199,7 @@ export default function CustomSoftware(props) {
                 container 
                 alignItems={matchesMD ? 'center' : undefined}
                 direction={matchesMD ? 'column' : 'row'} 
-                justifyContent='space-betwwen'
+                justifyContent='space-between'
                 className={classes.rowContainer}
             >
                 <Grid 
@@ -300,7 +300,7 @@ export default function CustomSoftware(props) {
                 container 
                 alignItems={matchesMD ? 'center' : undefined}
                 direction={matchesMD ? 'column' : 'row'} 
-                justifyContent='space-betwwen' 
+                justifyContent='space-between' 
                 style={{marginBottom: '20em'}}
                 className={classes.rowContainer}
             >
