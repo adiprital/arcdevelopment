@@ -9,10 +9,10 @@ import Hidden from '@material-ui/core/Hidden';
 
 import forwardArrow from '../assets/forwardArrow.svg';
 import backArrow from '../assets/backArrow.svg';
-import analytics from "../assets/analytics.svg";
-import seo from "../assets/seo.svg";
-import outreach from "../assets/outreach.svg";
-import ecommerce from "../assets/ecommerce.svg";
+import analytics from '../assets/analytics.svg';
+import seo from '../assets/seo.svg';
+import outreach from '../assets/outreach.svg';
+import ecommerce from '../assets/ecommerce.svg';
 
 import CallToAction from './ui/CallToAction';
 
