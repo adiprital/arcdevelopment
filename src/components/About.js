@@ -58,7 +58,7 @@ export default function Revolution(props) {
                 style={{ marginTop: '10em', marginBottom: '10em' }}
                 direction={matchesMD ? 'column' : 'row'}
                 alignItems={matchesMD ? 'center' : undefined}
-                justify='space-between'
+                justifyContent='space-between'
             >
                 <Grid item>
                     <Grid item container direction='column' lg style={{maxWidth: '35em'}}>
