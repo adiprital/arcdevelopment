@@ -9,13 +9,16 @@ import Typography from '@material-ui/core/Typography';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import CallToAction from './ui/CallToAction';
+
+
 import animationData from '../animations/landinganimation/data';
 import customSotwareIcon from '../assets/Custom Software Icon.svg';
 import mobileAppsIcon from '../assets/mobileIcon.svg';
 import websitesIcon from '../assets/websiteIcon.svg';
 import revolutionBackgroung from '../assets/repeatingBackground.svg';
 import infoBackground from '../assets/infoBackground.svg';
+
+import CallToAction from './ui/CallToAction';
 
 const useStyles = makeStyles(theme => ({
     animation: {
