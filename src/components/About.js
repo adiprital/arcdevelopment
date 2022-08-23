@@ -77,7 +77,7 @@ export default function Revolution(props) {
                                 variant='body1'
                                 align={matchesMD ? 'center' : undefined}
                                 paragraph
-                            >Adi Pri-Tal Development</Typography>
+                            >Adi Pri-Tal's Development</Typography>
                         </Grid>
                     </Grid>
                 </Grid>
